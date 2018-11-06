@@ -65,11 +65,11 @@ class Home extends Component {
 								</TableHead>
 								<TableBody>
 									{schedule.map(meeting => (
-										<TableRow>
-											<TableCell>{meeting.day}</TableCell>
-											<TableCell>
+										<TableRow >
+											<TableCell style={{fontSize: 16}}>{meeting.day}</TableCell>
+											<TableCell style={{fontSize: 16}}>
 												{
-													meeting.link != null ? (<Link to={meeting.link}>{meeting.topic}</Link>) : (<div>{meeting.topic}</div>)
+													meeting.link && meeting.link.length ? (<Link to={meeting.link} style={{textDecoration: "none"}}>{meeting.topic}</Link>) : (<div>{meeting.topic}</div>)
 												}
 											</TableCell>
 										</TableRow>

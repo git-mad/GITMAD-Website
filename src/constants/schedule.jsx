@@ -12,17 +12,17 @@ export const schedule = [
 		{
 			day: '9/3',
 			topic: 'No Meeting (Labor Day)',
-			link: 'www.google.com'
+			link: null
 		},
 		{
 			day: '9/10',
 			topic: 'Layouts and XML',
-			link: 'www.google.com'
+			link: '/guides/layouts'
 		},
 		{
 			day: '9/17',
 			topic: 'Handling Events & Async Task',
-			link: 'www.google.com'
+			link: '/guides/events'
 		},
 		{
 			day: '9/24',
@@ -32,32 +32,32 @@ export const schedule = [
 		{
 			day: '10/1',
 			topic: 'Tap Game',
-			link: null
+			link: '/guides/tap'
 		},
 		{
 			day: '10/9',
 			topic: 'No Meeting (Fall Break)',
-			link: 'www.google.com'
+			link: null
 		},		
 		{
 			day: '10/15',
 			topic: 'ListView, Adapters, RecyclerView',
-			link: 'www.google.com'
+			link: '/guides/views'
 		},
 		{
 			day: '10/22',
 			topic: 'Fragments',
-			link: 'www.google.com'
+			link: '/guides/fragments'
 		},
 		{
 			day: '10/29',
 			topic: 'Material Design & Styles',
-			link: 'www.google.com'
+			link: '/guides/design'
 		},
 		{
 			day: '11/5',
 			topic: 'HTTPS, APIs, Retrofit',
-			link: 'www.google.com'
+			link: '/guides/apis'
 		},
 		{
 			day: '11/12',

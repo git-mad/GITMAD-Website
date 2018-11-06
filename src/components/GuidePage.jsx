@@ -44,7 +44,7 @@ class GuidePage extends Component  {
 									{thisGuide.extraLinks.map(link =>(
 										<li>
 											<Typography variant="h5">
-												<a href={link.url} rel="noopener noreferrer" target="_blank">{link.name}</a>
+												<a href={link.url} rel="noopener noreferrer" target="_blank" style={{textDecoration: "none"}}>{link.name}</a>
 											</Typography>
 										</li>
 										))}

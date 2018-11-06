@@ -53,6 +53,12 @@ export const guides = {
 		subtitle: 'Covers accessing the internet and APIs with Android',
 		slideURL: 'https://docs.google.com/presentation/d/e/2PACX-1vQ07DrJOMlR_YwD_GS4v0PUm1qvytsJMHG97uCDq7WvEhfoIdGdIbkb-y4UoQ3-39X5CGxgLQL4ZOCt/embed?start=false&loop=false&delayms=3000',
 		extraLinks: null
+	},
+	tap:{
+		title: 'Tap Game',
+		subtitle: 'A simple Tap Game to implement what you\'ve learned',
+		slideURL: 'https://docs.google.com/presentation/d/e/2PACX-1vSwzFldW-5lQeUiq_MSQ0KMA4r2Dv_LVz99SaFB8Zq4laeEZ2wbYXcrEC8RiyY7_qcNNiJRvLcEYYrN/embed?start=false&loop=false&delayms=3000',
+		extraLinks: null
 	}
 
 }

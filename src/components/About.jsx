@@ -26,7 +26,7 @@ const About = (props) => {
 								{person.position}
 							</Typography>
 							<Typography gutterBottom>
-								<a href={"mailto:" + person.email}>{person.email}</a>
+								<a href={"mailto:" + person.email} style={{textDecoration: "none"}}>{person.email}</a>
 							</Typography>
 							<Typography>
 								{person.bio}
