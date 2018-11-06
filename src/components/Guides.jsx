@@ -1,8 +1,14 @@
 import React from 'react';
+import { Switch, Route } from 'react-router-dom'
+import GuidePage from './GuidePage'
+import GuideList from './GuideList'
 
 const Guides = (props) => {
 	return (
-		<div></div>
+	  <Switch>
+	    <Route exact path='/guides' component={GuideList}/>
+	    <Route path='/guides/:guide' component={GuidePage}/>
+	  </Switch>
 	);
 }
 

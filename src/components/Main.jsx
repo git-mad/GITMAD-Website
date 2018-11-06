@@ -5,7 +5,7 @@ import About from './About'
 import Guides from './Guides'
 
 const Main = (props) => (
-  <main>
+  <main style={{padding: "3em 10%", margin:"7vh auto"}}>
     <Switch>
       <Route exact path='/' component={Home}/>
       <Route path='/about' component={About}/>
