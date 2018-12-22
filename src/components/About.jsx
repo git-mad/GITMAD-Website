@@ -9,12 +9,12 @@ import { officers } from '../constants/officers'
 const About = (props) => {
 	return (
 		<div>
-			<Grid container justify="space-evenly" spacing={40}>
+			<Grid container justify="" spacing={40}>
 			{officers.map((person) => (
 				<Grid item xs={12} md={6} sm={6} lg={4} xl={3}>
 					<Card>
 						<CardMedia
-						style={{height:"40vh"}}
+						style={{height:"35vh", display:'block'}}
 						image={person.picture}
 						title={person.name}
 						/>

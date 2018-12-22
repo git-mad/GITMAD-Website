@@ -31,7 +31,7 @@ class Home extends Component {
 				<Grid container justify="space-evenly" spacing={40}>
 					<Grid item xs={12} lg={9} md={9} sm={12}>
 						<Paper style={{padding: "2em"}}>
-							<Typography variant="headline">
+							<Typography variant="h4">
 								Georgia Institute of Technology Mastering Android Development
 							</Typography>
 							<br/>
@@ -41,12 +41,12 @@ class Home extends Component {
 							</Typography>
 							<br/>
 							<Typography variant="subheading">
-								This year, we're going to be starting up a Beginner session running alongside of Advanced sessions.
+								This year, we will have a Beginner session running alongside of Advanced sessions.
 								The Beginner session is good for those who are starting to learn how to write Android apps and also those who want more practice in it.
 								In Advanced sessions, we dive into app programming immediately, so those who have previous Android experience are welcome to join this instead.
 							</Typography>
 							<br/>
-							<Typography variant="headline">
+							<Typography variant="title">
 								Schedule
 							</Typography>
 							<br/>

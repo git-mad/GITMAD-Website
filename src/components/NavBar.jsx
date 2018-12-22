@@ -18,7 +18,7 @@ class NavBar extends Component {
 					link: '/'
 				},
 				{
-					title: 'About Us',
+					title: 'About',
 					link: '/about'
 				},
 				{
